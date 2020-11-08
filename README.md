@@ -2,6 +2,8 @@ This is a shooting simulator for Warhammer 40k. The purpose of it is to simulate
 
 Requires NumPy to run.
 
+Syntax for all variable shots/damage with a constant modifier is the constant first followed by the amount of the type of dice being rolled (e.g. Melta Weapons in half range would do 2+d6 damage, 6 Fragstorm Grenade Launchers would fire 6d6 shots)
+
 This simulator can be used for fighting too. Hopefully replacing BS with WS is self-explanatory. You may input up to ten weapon profiles for now. There shouldn't be a need for much more than that.
 
 Unless specified parenthetically, each input must be an integer.
